@@ -18,7 +18,9 @@ body {
     flex-wrap: wrap;
 }
 
-
+.newColor {
+    background-color: red;
+}
 
 
 .divContainer {
