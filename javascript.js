@@ -16,14 +16,13 @@ function grid(){
     }
 console.log(grid());
 
-const multiDivs = document.querySelectorAll("#container")
+const multiDivs = document.querySelectorAll(".newdivContainer")
 
-multiDivs.forEach(div => div.addEventListener("mouseover", point(this)));
-
-
-function point(x) {
-    x.style.color = 'blue';
-}
+multiDivs.forEach(div => div.addEventListener('mouseover', function (e) {
+    e.target.style.background = 'blue';
+  }));
+    
+    
 
 
 

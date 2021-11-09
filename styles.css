@@ -18,9 +18,6 @@ body {
     flex-wrap: wrap;
 }
 
-.newColor {
-    background-color: red;
-}
 
 
 .divContainer {
@@ -30,8 +27,10 @@ body {
     flex-basis: 256px;
 }
 
+
 .newdivContainer {
     flex: 1;
     border-style: solid;
-    border-width: thin
+    border-width: thin;
+    animation: pulse 3s infinite;
 }
