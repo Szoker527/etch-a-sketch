@@ -1,14 +1,27 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
 }
 
+#top h1 {
+    font-size: 60px;
+}
 
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+#btns {
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
 #container {
