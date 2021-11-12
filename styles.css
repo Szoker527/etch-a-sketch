@@ -29,9 +29,13 @@ body {
 }
 
 .btn button {
-   padding: 15px 34px;
-   margin-right: 100px;
-   
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin-right: 100px;
+    width: 170px;
+    cursor: pointer;
 }
 
 #box {  
