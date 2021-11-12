@@ -10,6 +10,7 @@ button.addEventListener("click", newGrid
 
 
 
+
 function grid(gridNumber){
     const container = document.querySelector("#container");
     
@@ -36,6 +37,7 @@ function newGrid() {
     const text = prompt("How big you want your grid?", "grid number")
     let gridNumber = text;
     if (gridNumber < 100) {
+                clearGrid();
          return grid(gridNumber);
 
     }
@@ -44,6 +46,12 @@ function newGrid() {
     }
 }  
 
+function clearGrid() {
+    const myNode = document.getElementById("container");
+    while (myNode.firstChild) {
+      myNode.removeChild(myNode.lastChild);
+    }
+}
 
 button.addEventListener("click", () => {
     const container = document.querySelectorAll(".divContainer");
