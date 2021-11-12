@@ -98,9 +98,17 @@ function resetGrid() {
 
 function clearGrid() {
     const multiDivs = document.querySelectorAll(".newdivContainer")
-    
+
     multiDivs.forEach(div => div.addEventListener('mouseover', function (e) {
         e.target.style.background =  "#0000" ;
+  }));
+} 
+
+function blackGrid() {
+    const multiDivs = document.querySelectorAll(".newdivContainer")
+    
+    multiDivs.forEach(div => div.addEventListener('mouseover', function (e) {
+        e.target.style.background =  "#000000" ;
   }));
 } 
     
@@ -111,6 +119,10 @@ btnReset.addEventListener("click", resetGrid)
 const btnClear = document.querySelector("#clearGrid")
 
 btnClear.addEventListener("click", clearGrid) 
+
+const btnBlack = document.querySelector("#blackGrid")
+
+btnBlack.addEventListener("click", blackGrid) 
 
 
 

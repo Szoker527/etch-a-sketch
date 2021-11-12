@@ -9,6 +9,8 @@ body {
     display: block;
     font-size: 60px;
     margin-bottom: 100px;
+    color: rgb(29, 29, 151);
+    font-weight: bolder;
 }
 
 #middle {
@@ -36,6 +38,31 @@ body {
     margin-right: 100px;
     width: 170px;
     cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    background-color: rgb(29, 29, 151);
+}
+.button1:hover {
+    background-color: #2e2e2e;
+    color: white;
+  }
+
+.button2:hover {
+    background-color: #2e2e2e;
+    color: white;
+  }
+
+.button3:hover {
+    background-color: #2e2e2e;
+    color: white;
+  }
+
+.button4:hover {
+    background-color: #2e2e2e;
+    color: white;
 }
 
 #box {  
@@ -45,12 +72,14 @@ body {
 }
 
 #container {
+    border-color: rgb(29, 29, 151);
     display: flex;
     width: 500px;
     height: 500px;
     flex-wrap: wrap;
     border-style: solid;
     border-width: thin;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
 }
 
 
